@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   // modules: ["@nuxt/postcss8"],
   css: ["@/assets/css/index.css"],
+  components: ["~/views/landing", "~/views", "~/components"],
   postcss: {
     plugins: {
       tailwindcss: {},
