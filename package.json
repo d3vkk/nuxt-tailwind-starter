@@ -12,6 +12,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.4.11",
     "pinia": "^2.1.6"
   },
