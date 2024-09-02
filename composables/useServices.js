@@ -2,7 +2,7 @@ const { SERVER_URL } = useRuntimeConfig().public;
 
 export const useServices = () => {
   const fetchService = async (useFetchParams) => {
-    const { data, pending, error, refresh } = await useFetch(...useFetchParams);
+    const { data, error, refresh } = await useFetch(...useFetchParams);
 
     if (data.value) {
       return {
