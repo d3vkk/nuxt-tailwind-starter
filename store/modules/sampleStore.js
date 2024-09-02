@@ -1,8 +1,8 @@
 const useSampleStore = defineStore("sample", () => {
   const sampleState = ref("");
 
-  function setSampleState(checkoutUser) {
-    sampleState.value = checkoutUser;
+  function setSampleState(newValue) {
+    sampleState.value = newValue;
   }
 
   return {
@@ -12,3 +12,4 @@ const useSampleStore = defineStore("sample", () => {
 });
 
 export default useSampleStore;
+
